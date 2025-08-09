@@ -28,9 +28,9 @@ def input_nilai(mata_pelajaran):
             print("Input tidak valid. Masukkan angka bulat.")
 
 # Meminta input nilai dari pengguna dengan validasi
-matematika = input_nilai("Bahasa Ingrris")
+matematika = input_nilai("Matematika")
 bahasa_indonesia = input_nilai("Bahasa Indonesia")
-ipa = input_nilai("IPS")
+ipa = input_nilai("IPA")
 
 # Menghitung rata-rata
 rata_rata = (matematika + bahasa_indonesia + ipa) / 3
